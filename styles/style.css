@@ -1,0 +1,98 @@
+/*---general style---*/
+
+body {
+  font-size: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*---main frames---*/
+
+#container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#skyline {
+	max-width: 100%;
+}
+
+.banner {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.contentFrame {
+  display: inline-block;
+  max-width: 100%
+}
+
+/*---textboxes--*/
+
+.contentCenter {
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.contentCenterLeft {
+	display: inline-block;
+	vertical-align: top;
+	width: 185px;
+	text-align: left;
+		font-size: 13px;
+		color: #B1B9C3;
+	position: relative;
+		top: -130px;
+		left: 900px;
+	margin: 15px; 
+	max-width: 100%;
+}
+
+.contentCenterRight {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	padding-left: 15px;
+	width: 340px;
+	position: relative;
+		top: -130px;
+		left: 400px;
+	max-width: 100%;	
+}
+/*---images and styling---*/
+
+#logo {
+	border-radius: 50%;
+	border: 5px solid white;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	top: -55px;
+	left: 220px;
+}
+
+#TIY {
+	color: black;
+	font-size: 13px;
+}
+
+.headline {
+	font-size: 22px;
+	text-align: left;
+}
+
+.byline {
+	font-size: 11px;
+	text-align: left;
+	color: #A29D9E;
+}
+
+.copy {
+	font-size: 13px;
+	color: #A29D9E;
+}
